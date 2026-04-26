@@ -54,3 +54,38 @@ nav a:hover {
     background-color: #555;
     transition: 0.3s;
 }
+
+/* Task 5: Create the Product Table Styles */
+
+/* 5.4: Set width and border-collapse */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* 5.3: Apply light gray background to first and third columns */
+.alt-col {
+    background-color: #f9f9f9;
+}
+
+/* 5.5: Style cells with borders and padding */
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    /* 5.7: Align text to the left for all cells */
+    text-align: left;
+}
+
+/* 5.6: Header row colors */
+thead tr {
+    background-color: #444;
+    color: #ffffff;
+}
+
+/* 5.8: Style footer row */
+tfoot td {
+    font-style: italic;
+    text-align: center; /* Centers the footer content */
+    border-top: 2px solid #333;
+}
