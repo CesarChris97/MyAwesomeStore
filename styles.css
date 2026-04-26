@@ -1,0 +1,56 @@
+/* Task 3.2: Overall page background and font */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    /* Task 3.3: Remove default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+/* Task 3.1: Style the main content area */
+main {
+    max-width: 960px;
+    margin: 0 auto; /* This centers the container horizontally */
+}
+
+/* Task 3.1: Style sections within the main area */
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    /* Apply a light box shadow as per rgba(0, 0, 0, 0.1) instructions */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Optional: adds space above the section */
+}
+
+/* Task 4: Style the Navigation Menu */
+
+/* 4.1: Use Flexbox to center items horizontally */
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* 4.2: Remove bullets and extra padding */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 4.3: Set side margins for list items */
+nav li {
+    margin: 0 15px;
+}
+
+/* 4.4, 4.5, 4.6: Style the links */
+nav a {
+    color: #ffffff;
+    background-color: #333;
+    padding: 12px 20px;
+    text-decoration: none; /* Removes underline */
+    display: block;        /* Makes the entire area clickable */
+    border-radius: 4px;    /* Slightly rounds the corners */
+}
+
+/* 4.7: Hover effect with transition */
+nav a:hover {
+    background-color: #555;
+    transition: 0.3s;
+}
